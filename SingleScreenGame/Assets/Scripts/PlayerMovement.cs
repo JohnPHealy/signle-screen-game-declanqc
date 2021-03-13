@@ -58,6 +58,14 @@ public class PlayerMovement : MonoBehaviour
        moveDir = context.ReadValue<float>();
     }
 
+    public void Move(float moveAmt)
+    {
+        moveDir = moveAmt;
+    }
+    
+    
+    
+
     public void Jump(InputAction.CallbackContext context)
     {
         if (canJump)
