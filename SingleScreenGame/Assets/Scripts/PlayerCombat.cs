@@ -7,11 +7,14 @@ public class PlayerCombat : MonoBehaviour
 {
    [SerializeField] private Collider2D playerCheck;
    [SerializeField] private LayerMask playerLayers;
+   [SerializeField] private GameManager manager;
+   [SerializeField] private int scoreToGive = 100;
 
    private void Update()
    {
       if (playerCheck.IsTouchingLayers((int) playerLayers))
       {
+         manager.AddScore(scoreToGive);
          Destroy(gameObject);
       }
    }
@@ -20,7 +23,7 @@ public class PlayerCombat : MonoBehaviour
    {
       if (other.gameObject.tag == "Player")
       {
-         Destroy(other.gameObject);
+         manager.respawnPlayer();
       }
    }
 }
