@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AiPatrol.cs" t="Include" />
+          <e p="BulletMovement.cs" t="Include" />
+          <e p="FireBullet.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="PlayerCombat.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
