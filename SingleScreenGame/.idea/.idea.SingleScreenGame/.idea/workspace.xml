@@ -26,6 +26,8 @@
       <option value="$PROJECT_DIR$/Assets/BulletMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/LoadLevel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pi6n2ZEswwej6NCWMGw1onKkTg" />
@@ -78,6 +80,7 @@
       <workItem from="1615653763356" duration="4828000" />
       <workItem from="1615732462426" duration="5712000" />
       <workItem from="1615743194201" duration="2488000" />
+      <workItem from="1615801381782" duration="297000" />
     </task>
     <servers />
   </component>
