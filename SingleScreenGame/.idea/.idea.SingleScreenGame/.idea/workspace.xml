@@ -25,6 +25,7 @@
       <option value="$PROJECT_DIR$/Assets/FireBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/BulletMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pi6n2ZEswwej6NCWMGw1onKkTg" />
@@ -76,7 +77,7 @@
       <updated>1615653732010</updated>
       <workItem from="1615653763356" duration="4828000" />
       <workItem from="1615732462426" duration="5712000" />
-      <workItem from="1615743194201" duration="1708000" />
+      <workItem from="1615743194201" duration="2488000" />
     </task>
     <servers />
   </component>
