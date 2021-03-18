@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRB;
     private bool canJump;
     private SpriteRenderer mySprite;
+    public GameObject firePoint;
     
     private void Start()
     {
@@ -27,11 +28,13 @@ public class PlayerMovement : MonoBehaviour
         if (moveDir > 0)
         {
             mySprite.flipX = false;
+            firePoint.transform.Rotate(0f, 0f, 0f);
         }
 
         if (moveDir < 0)
         {
             mySprite.flipX = true;
+            firePoint.transform.Rotate(0f, 180f, 0f);
         }
         
         

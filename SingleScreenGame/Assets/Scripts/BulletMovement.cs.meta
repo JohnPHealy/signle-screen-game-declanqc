@@ -5,7 +5,8 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - bullet: {fileID: 2310591675462391034, guid: 47acc7d796295014497e2850203ca869, type: 3}
-  - mySprite: {instanceID: 0}
+  - brb: {fileID: 4047842710044249790, guid: 47acc7d796295014497e2850203ca869, type: 3}
+  - player: {fileID: 7906960538674319730, guid: e9cfa812181a18f40a534d69c7d12654, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
