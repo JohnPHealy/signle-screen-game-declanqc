@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRB;
     private bool canJump;
     private SpriteRenderer mySprite;
-
+    
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
