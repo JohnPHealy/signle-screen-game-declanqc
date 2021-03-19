@@ -15,12 +15,13 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D myRB;
     private bool canJump;
     private SpriteRenderer mySprite;
-    public GameObject firePoint;
+    private SpriteRenderer enemySprite;
     
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
         mySprite = GetComponentInChildren<SpriteRenderer>();
+        enemySprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void FixedUpdate()
@@ -28,13 +29,13 @@ public class PlayerMovement : MonoBehaviour
         if (moveDir > 0)
         {
             mySprite.flipX = false;
-            firePoint.transform.Rotate(0f, 0f, 0f);
+            enemySprite.flipX = false;
         }
 
         if (moveDir < 0)
         {
             mySprite.flipX = true;
-            firePoint.transform.Rotate(0f, 180f, 0f);
+            enemySprite.flipX = true;
         }
         
         

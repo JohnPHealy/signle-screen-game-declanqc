@@ -36,9 +36,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireBullet2.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pi6n2ZEswwej6NCWMGw1onKkTg" />
@@ -96,7 +96,8 @@
       <workItem from="1615815675691" duration="1467000" />
       <workItem from="1616008082061" duration="2865000" />
       <workItem from="1616077403684" duration="1179000" />
-      <workItem from="1616078625089" duration="8532000" />
+      <workItem from="1616078625089" duration="8855000" />
+      <workItem from="1616155639560" duration="747000" />
     </task>
     <servers />
   </component>
