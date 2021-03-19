@@ -280,6 +280,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 06ca0e7f-3862-4d21-b71f-ea48bf621273
     m_ActionName: Gameplay/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 538f19a3-115a-40a4-8856-8428b3733e4e
+    m_ActionName: Gameplay/Pause[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 03fed72b-4761-48b7-8942-36a630aacf3a
+    m_ActionName: Gameplay/Shoot[/Keyboard/f]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Gameplay
